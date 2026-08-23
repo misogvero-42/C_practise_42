@@ -6,7 +6,7 @@
 /*   By: mgvero <mgvero@learner.42.tech>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/22 10:28:55 by mgvero            #+#    #+#             */
-/*   Updated: 2026/08/22 10:31:27 by mgvero           ###   ########.fr       */
+/*   Updated: 2026/08/23 10:26:53 by mgvero           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	ft_putchar(char c)
 void	ft_is_negative(int n)
 {
 	if (n < 0)
-		ft_printchar('N');
+		ft_putchar('N');
 	else
 		ft_putchar('P');
 }
