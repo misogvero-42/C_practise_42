@@ -6,7 +6,7 @@
 /*   By: mgvero <mgvero@learner.42.tech>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/24 13:39:31 by mgvero            #+#    #+#             */
-/*   Updated: 2026/08/24 18:48:03 by mgvero           ###   ########.fr       */
+/*   Updated: 2026/08/24 18:55:59 by mgvero           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,11 @@ void	ft_print_abc(int a, int b, int c)
 int	ft_is_it_last(int a, int b, int c)
 
 {
-	if (a == 7)
+	if (!(a == 7))
 	{
-		if (b == 8)
+		if (!(b == 8))
 		{
-			if (c == 9)
+			if (!(c == 9))
 				return(0);
 		}
 	}
