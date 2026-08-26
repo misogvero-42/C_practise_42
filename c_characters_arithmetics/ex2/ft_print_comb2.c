@@ -6,7 +6,7 @@
 /*   By: mgvero <mgvero@learner.42.tech>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/25 15:43:48 by mgvero            #+#    #+#             */
-/*   Updated: 2026/08/25 17:35:14 by mgvero           ###   ########.fr       */
+/*   Updated: 2026/08/26 16:02:00 by mgvero           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,26 +18,26 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	 ft_print_comb2(void)
+void	ft_print_comb2(void)
 
 {
-	int a;
-	int b;
+	int	a;
+	int	b;
 
 	a = 0;
-	while(a <= 99)
+	while (a <= 99)
 	{
 		b = a + 1;
-		while(b <= 99)
+		while (b <= 99)
 		{
-		ft_putchar(a / 10 + '0');
-		ft_putchar(a % 10 + '0');
-		ft_putchar(' ');
-		ft_putchar(b / 10 + '0');
-		ft_putchar(b % 10 + '0');
-		if (!(a ==98 && b == 99))
-			write(1, ", ", 2);
-		b++;
+			ft_putchar(a / 10 + '0');
+			ft_putchar(a % 10 + '0');
+			ft_putchar(' ');
+			ft_putchar(b / 10 + '0');
+			ft_putchar(b % 10 + '0');
+			if (!(a == 98 && b == 99))
+				write(1, ", ", 2);
+			b++;
 		}
 		a++;
 	}
